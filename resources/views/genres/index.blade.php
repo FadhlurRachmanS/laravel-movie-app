@@ -44,21 +44,18 @@
                     <div class="col-span-1 flex items-center">
                         <div class="flex flex-col gap-4 sm:flex-row sm:items-center"> 
                             <p class="text-sm font-medium text-black dark:text-white">
-                            {{ $genre['id']}}
+                            {{ $genre->id}}
                             </p>
-                            <div class="w-12 rounded-md">
-                            <img src="src/images/movie/{{ $genre['poster']}}" alt="Product" />
-                            </div>
                         </div>
                     </div>
                     <div class="col-span-2 items-center sm:flex">
                         <p class="text-sm font-medium text-black dark:text-white">
-                        {{ $genre['name']}}
+                        {{ $genre->name}}
                         </p>
                     </div>
                     <div class="col-span-4 flex items-center">
                         <p class="text-sm font-medium text-black dark:text-white">
-                        {{ $genre['deskription']}}
+                        {{ $genre->description}}
                         </p>
                     </div>
                     <div class="col-span-1 flex items-center">
