@@ -7,7 +7,7 @@
                 <!-- SIDEBAR HEADER -->
                 <div class="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
                     <a href="/">
-                        <img src="src/images/logo/logo.svg" alt="Logo" />
+                        <img src="/src/images/logo/logo.svg" alt="Logo" />
                     </a>
 
                     <button class="block lg:hidden" @click.stop="sidebarToggle = !sidebarToggle">
@@ -156,7 +156,7 @@
                                 <li>
                                     <a
                                         class="group relative flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4"
-                                        href="reviews"
+                                        href="/reviews"
                                         @click="selected = (selected === 'Reviews' ? '':'Reviews')"
                                         :class="{ 'bg-graydark dark:bg-meta-4': (selected === 'Reviews') }"
                                     >
